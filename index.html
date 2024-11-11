@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield Of Hinduism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+
+    <!-- Main Content -->
+    <main class="content">
+        <div class="container-wrapper">
+            <article class="post-content">
+                <h1 class="entry-header">হিন্দুধর্মের ঈশ্বরতত্ত্ব</h1>
+                <p>হিন্দুধর্ম বিশ্বের অন্যতম প্রাচীন ধর্ম, যার শিকড় বহু হাজার বছর পুরনো। এই ধর্মের অন্যতম আকর্ষণীয় বৈশিষ্ট্য তার ঈশ্বরতত্ত্ব, যা একই সঙ্গে জটিল এবং গভীর। হিন্দুধর্মের ঈশ্বরতত্ত্ব বিভিন্ন দৃষ্টিভঙ্গিতে ব্যাখ্যা করা হলেও, মূল বার্তা একটিই—একক সত্য বা ব্রহ্মের বিভিন্ন রূপের প্রকাশ।</p>
+                <!-- Continue with the full article content as provided -->
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script>
+        // Load header and footer dynamically
+        fetch('header.html').then(res => res.text()).then(data => {
+            document.getElementById('header-container').innerHTML = data;
+        });
+        fetch('footer.html').then(res => res.text()).then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+        });
+    </script>
+</body>
+</html>
