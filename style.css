@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: 'Kalpurush', sans-serif;
+    background-color: #f7f7f7;
+    color: #2c2f34;
+    margin: 0;
+    padding: 0;
+}
+
+.container-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header styles */
+.site-header {
+    background: linear-gradient(135deg, #14111e, #4b4462);
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.site-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.site-description {
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px 0 0;
+}
+
+/* Main content styles */
+.content {
+    padding: 20px 0;
+}
+
+.entry-header {
+    font-size: 34px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Footer styles */
+.site-footer {
+    background: #1f2024;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 2px solid #444;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container-wrapper {
+        width: 95%;
+    }
+
+    .entry-header {
+        font-size: 28px;
+    }
+
+    .site-title {
+        font-size: 28px;
+    }
+}
